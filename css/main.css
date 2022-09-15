@@ -1,5 +1,5 @@
 .container{
-	width:1300px;
+	width:100%;
 	margin:auto;
 }
 .contact-section{
@@ -25,6 +25,8 @@
 	margin-right:10px;
 }
 
+/* header section */
+
 .header-section{
 	display:flex;
 	list-style-type:none;
@@ -39,12 +41,13 @@
 }
 .banner-section img{
 	width:100%;
-	height:auto;
 	background-size:cover;
+	margin-bottom:-300px;
 }
 .banner-text{
 	position:relative;
 	bottom:350px;
+	margin-top:300px;
 	margin-left:100px;
 }
 .banner-text h1{
@@ -74,5 +77,289 @@
 }
 .btn-play h3{
 	margin-left:20px;
-	
 }
+
+/*third section*/
+
+.third-section{
+	display:flex;
+}
+.third-section .third-first{
+	width:25%;
+	box-shadow: 0px 0px 1px 1px #A4A4A5;
+	text-align:center;
+	margin-left:10px;
+	height:175px;
+	padding:20px;
+}
+.third-first{
+	margin-top:-130px;
+}
+.third-first i{
+	font-size:30px;
+	color:#3b76aa;
+}
+
+.about-head button{
+	background-color: #bee2f0;
+	color:#3b76aa;
+	border:none;
+	border-radius:15px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.about-head{
+	text-align: center;
+	margin-top:40px;
+}
+.about-head span{
+	color: #2642e8;
+}
+.about-img-txt{
+	display:flex;
+}
+.about-img-txt .img-content{
+	width:50%;
+}
+\.text-content{
+	width:50%;
+}
+.img-content img{
+	width:100%;
+	height:500px;
+	margin-left:10px;
+}
+.text-content{
+	margin-left:80px;
+	margin-top:30px;
+}
+.about-txt{
+	margin-left:-10px;
+}
+.about-txt p{
+	margin-left:30px;
+}
+.text-icon i{
+	margin-right:10px;
+	color:#3b76aa;
+}
+
+/* progress section*/
+
+.container .skill-box{
+	width:100%;
+	margin:25px 0;
+}
+.skill-box .title{
+	display:block;
+	font-size:14px;
+	font-weight:600;
+	color:#333;
+}
+.skill-box .skill-bar{
+	height:8px;
+	width:100%;
+	border-radius:6px;
+	margin-top:6px; 
+	background: rgba(0,0,0,0,1)
+}
+.skill-bar .skill-per{
+	position:relative;
+	display:block;
+	height:100%;
+	width:90%;
+	border-radius:6px;
+	background:#4070f4;
+}
+.skill-per .tooltip{
+	position:absolute;
+	right:-14px;
+	top:-28px;
+	background:#4070f4;
+}
+/* progress section end*/
+
+/*all company starts*/
+
+.all-four{
+	display:flex;
+}
+.all-four .four{
+	margin-top:30px;
+	background-color: #cdcde4;
+	width:25%;
+	position:relative;
+	margin-right:10px;
+}
+.all-four .four h1{
+	text-align:center;
+}
+.all-four .four p{
+	text-align:center;
+}
+.company-img{
+	padding-left:120px;
+	padding-right:20px;
+	background-color: #e7e7fd;
+	margin-top:40px;
+}
+.company-img img{
+	height:55px;
+	width:9.16%;
+	justify-content:space-evenly;
+	margin-top:20px;
+	padding:30px;
+}
+.companyicon{
+	width: 60px;
+    height: 60px;
+    background: #3b76aa;
+    border-radius: 100px;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+	margin-left:130px;
+	margin-top:-30px;
+}
+
+/*all company end*/
+/*services start*/
+.services-section{
+	text-align:center;
+	margin-top:30px;
+}
+.services-section button{
+	background-color: #bee2f0;
+	color:#3b76aa;
+	border:none;
+	border-radius:15px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.ser-fir-three{
+	width:33.33%;
+	box-shadow: 0px 0px 1px 1px #A4A4A5;
+	margin-left:10px;
+	text-align:center;
+	height:160px;
+	padding:20px;
+}
+.ser-fir{
+	display:flex;
+}
+.ser-sec-three{
+	width:33.33%;
+	box-shadow: 0px 0px 1px 1px #A4A4A5;
+	margin-left:10px;
+	text-align:center;
+	height:160px;
+	padding:20px;
+	margin-top:10px;
+}
+.ser-sec{
+	display:flex;
+}
+.services-six i{
+	color:#3b76aa;
+	font-size:30px;
+}
+/*services ends*/
+/*testimonial starts*/
+.ratings{
+    width: 100%;
+    height: 550px;
+    position: relative;
+	margin-top:30px;
+}
+.ratings .big-image{
+    background-image: url(../testimonials-bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.big-image::after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 100%;
+    height: 500px;
+}
+.rating-content{
+    margin-left: 550px;
+}
+.rating-content img{
+    width: 15%;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid rgb(99, 97, 94);
+}
+.head-rate{
+    margin-left: 175px;
+}
+.head-rate h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.head-rate h4{
+    color: #fff;
+    text-align: center;
+}
+.head-rate p{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+.head-rate p i{
+    color: #9da1a5;
+    padding-bottom: 25px;
+}
+.ratings-flex{
+    position: absolute;
+    top: 20%;
+}
+/*testimonial end*/
+
+/*portfolio start*/
+.portfolio-head{
+	text-align:center;
+}
+.portfolio-head button{
+	background-color: #bee2f0;
+	color:#3b76aa;
+	border:none;
+	border-radius:15px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.portfolio-head span{
+	color: blue;
+}
+.portfolio-li{
+	display:flex;
+	justify-content:center;
+	list-style-type:none;
+}
+.portfolio-li li{
+	margin-left:15px;
+}
+.port-flex{
+    display: flex;
+	margin-top:20px;
+}
+.port{
+    width: 32.33%;
+	margin-right:15px;
+}
+.port img{
+    width: 100%;
+    padding: 7px;
+}
+/*portfolio end*/
