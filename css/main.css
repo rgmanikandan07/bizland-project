@@ -5,7 +5,7 @@
 .contact-section{
 	display:flex;
     justify-content:space-between;
-	background-color: #3b76aa;
+	background-color: #106eea;
 	color:white;
 }
 .contact-details{
@@ -16,6 +16,12 @@
 }
 .contact-details i{
 	margin-right:5px;
+}
+.contact-details p i:hover{
+	color:black;
+}
+.contact-icons i:hover{
+	color:gray;
 }
 .contact-icons{
 	padding:5px;
@@ -38,6 +44,9 @@
 .header-contact li{
 	margin-left:20px;
 	margin-top:20px;
+}
+.header-contact li:hover{
+	color:blue;
 }
 .banner-section img{
 	width:100%;
@@ -63,20 +72,28 @@
 	display:flex;
 }
 .btn-play button{
-	background-color: #3b76aa;
+	background-color: #106eea;
 	color:white;
 	border:none;
 	height:25px;
 	margin-top:17px;
 	border-radius:5px;
+	letter-spacing:1px;
+}
+.btn-play button:hover{
+	transition: 0.5s;
+	color:skyblue;
 }
 .btn-play i{
 	font-size:20px;
 	margin-right:7px;
-	color: #3b76aa;
+	color: #106eea;
 }
 .btn-play h3{
 	margin-left:20px;
+}
+.btn-play h3:hover{
+	color:#106eea;
 }
 
 /*third section*/
@@ -98,6 +115,7 @@
 .third-first i{
 	font-size:30px;
 	color:#3b76aa;
+	margin-right:80px;
 }
 
 .about-head button{
@@ -145,37 +163,26 @@
 }
 
 /* progress section*/
-
-.container .skill-box{
-	width:100%;
-	margin:25px 0;
+.skill-box{
+	margin-top:30px;
+	margin-left:50px;
+	margin-bottom:40px;
 }
-.skill-box .title{
-	display:block;
-	font-size:14px;
-	font-weight:600;
-	color:#333;
+.all-skill{
+	display:flex;
 }
-.skill-box .skill-bar{
-	height:8px;
-	width:100%;
-	border-radius:6px;
-	margin-top:6px; 
-	background: rgba(0,0,0,0,1)
+.skill-box1{
+	width:50%;
 }
-.skill-bar .skill-per{
-	position:relative;
-	display:block;
-	height:100%;
-	width:90%;
-	border-radius:6px;
-	background:#4070f4;
+.skill-box2{
+	width:50%;
 }
-.skill-per .tooltip{
-	position:absolute;
-	right:-14px;
-	top:-28px;
-	background:#4070f4;
+.skill-box .skill-number{
+	margin-left:330px;
+}
+.skill-box progress{
+	width: 500px;
+	border-radius: 0;
 }
 /* progress section end*/
 
@@ -209,6 +216,7 @@
 	justify-content:space-evenly;
 	margin-top:20px;
 	padding:30px;
+	transition: all 0.4s ease-in-out;
 }
 .companyicon{
 	width: 60px;
@@ -221,7 +229,7 @@
     text-align: center;
     color: #fff;
     font-size: 24px;
-	margin-left:100px;
+	margin-left:132px;
 	margin-top:-30px;
 }
 
@@ -238,6 +246,9 @@
 	border-radius:15px;
 	padding-left:10px;
 	padding-right:10px;
+}
+.services-section h2 span{
+	color:blue;
 }
 .ser-fir-three{
 	width:33.33%;
@@ -263,8 +274,11 @@
 	display:flex;
 }
 .services-six i{
-	color:#3b76aa;
+	color:#106eea;
 	font-size:30px;
+}
+.sevices-six h3:hover{
+	color:black;
 }
 /*services ends*/
 /*testimonial starts*/
@@ -324,6 +338,7 @@
 .ratings-flex{
     position: absolute;
     top: 20%;
+	margin-left:83px;
 }
 /*testimonial end*/
 
@@ -349,6 +364,9 @@
 }
 .portfolio-li li{
 	margin-left:15px;
+}
+.portfolio-li li:hover{
+	color:blue;
 }
 .port-flex{
     display: flex;
@@ -377,6 +395,9 @@
 	text-align:center;
 	margin-top:30px;
 }
+.team-head h2 span{
+	color:blue;
+}
 .team-img{
 	display:flex;
 	margin-left:40px;
@@ -400,6 +421,9 @@
 	padding-left:10px;
 	padding-right:10px;
 }
+.pricing-head h2 span{
+	color:blue;
+}
 .pricing-four{
 	display:flex;
 	margin-bottom:20px;
@@ -421,6 +445,9 @@
 	padding:10px;
 	width:100px;
 	border-radius:5px;
+}
+.pricing-four button:hover{
+	color:skyblue;
 }
 .price-btn{
 	background-color: #e0e0e0;
@@ -518,6 +545,9 @@
 	padding-left:10px;
 	padding-right:10px;
 }
+.contactus{
+	overflow:hidden;
+}
 .contactus-head span{
 	color:blue;
 }
@@ -571,10 +601,11 @@
 	box-shadow: 0 0 3px #999;
 	padding:20px;
 	margin-bottom: 35px;
+	margin-left:60px;
 }
 .contactus-right{
 	width:50%;
-	margin-left: 629px;
+	margin-left: 557px;
     margin-top: -424px;
 }
 .contactus-form{
@@ -617,9 +648,158 @@
 	width:130px;
 	height:40px;
 }
-input{
-height:25px;	
-	
-}
 
 /*contact us ends*/
+
+/*subscribe start*/
+.subscribe{
+	background: #f1f6fe;
+	padding:15px;
+}
+.sub-section{
+	text-align:center;
+	margin-top:60px;
+}
+.sub-section button{
+	background: #106eea;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+	width: 90px;
+    height: 35px;
+	border:none;
+}
+.sub-section input{
+	width: 480px;
+    height: 30px;
+	border:none;
+}
+/*subscribe end*/
+
+/*footer start*/
+.footer {
+    margin-top: 30px;
+    background-color:  #fff;
+    padding: 40px 0 20px 0;
+    
+}
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+	padding-left:40px;
+}
+
+.footer-flex .footer-box {
+    width: 23.33%;
+    height: auto;
+}
+.footer-flex .footerbox-1{
+    width: 30%;
+    height: 200px;
+}
+.footer-box h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+	padding-bottom:20px;
+}
+.footer-box h4 {
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box p span{
+    font-weight: 700;
+}
+.footericon1{
+    padding-top: 30px;
+    font-size:15px;
+    font-weight: 400;
+    padding-left: 4px;
+    font-family: "Raleway", sans-serif;
+}
+.footericon1 a{
+    text-decoration: none;
+}
+.footer-box h3{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+	margin-left: 47px;
+}
+.footer-box li {
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+	list-style-type:none;
+}
+.footer-box ul li span{
+    color:black;
+}
+.footer-box a{
+    text-decoration: none;
+}
+.footer-box ul li i {
+    padding-right: 2px;
+    color: #9eccf4;
+    font-size: 18px;
+    line-height: 1;
+	list-style:none;
+}
+.footerbox-1 h3{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+.footerbox-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.footer-box:hover {
+    color: #007aff;
+}
+.footerbox-1 form {
+    display: flex;
+    padding-top: 25px;
+}
+.footericon1 a{
+    font-size: 18px;
+    display: inline-block;
+    background: #768fa6;
+    line-height: 36px;
+    margin-right: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+}
+.footericon1 a:hover{
+    background-color:#007aff;
+}
+.footer-box span:hover{
+    color: #007aff;
+}
+/*footer ends*/
+
+/*legal starts*/
+.legal{
+ background: #f1f6fe;
+}
+.all-legal{
+	display:flex;
+}
+.all-legal h4{
+	margin-left: 860px;
+}
+/*legal ends*/
