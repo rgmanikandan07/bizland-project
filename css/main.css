@@ -57,7 +57,7 @@
 	position:relative;
 	bottom:350px;
 	margin-top:300px;
-	margin-left:100px;
+	
 }
 .banner-text h1{
 	font-size:35px;
@@ -68,7 +68,7 @@
 .btn-play{
 	position:relative;
 	bottom:350px;
-	margin-left:100px;
+	
 	display:flex;
 }
 .btn-play button{
@@ -447,7 +447,7 @@
 	border-radius:5px;
 }
 .pricing-four button:hover{
-	color:skyblue;
+	background-color:skyblue;
 }
 .price-btn{
 	background-color: #e0e0e0;
@@ -516,6 +516,9 @@
 .faq-head{
 	text-align:center;
 	margin-top:50px;
+}
+.faq-head h2 span{
+	color:blue;
 }
 .faq-flex{
 	margin-left: 220px;
@@ -641,12 +644,16 @@
 	margin-left:200px;
 }
 .lab3 button{
-	border-color: #098cf7;
+	border-color: #106eea;
 	color:white;
 	background:#098cf7;
 	border-radius:5px;
 	width:130px;
 	height:40px;
+	border:none;
+}
+.lab3 button:hover{
+	background-color:#39758d;
 }
 
 /*contact us ends*/
@@ -669,6 +676,9 @@
 	width: 90px;
     height: 35px;
 	border:none;
+}
+.sub-section button:hover{
+	background-color:#39758d;
 }
 .sub-section input{
 	width: 480px;
@@ -801,5 +811,8 @@
 }
 .all-legal h4{
 	margin-left: 860px;
+}
+.legal-last a{
+	text-decoration:none;
 }
 /*legal ends*/
